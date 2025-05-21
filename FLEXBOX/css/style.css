@@ -110,3 +110,8 @@ body{
 #for {
     order: 4;
 }
+
+/* 8 - grow */
+.grow {
+    display: flex;
+}
