@@ -115,3 +115,48 @@ body{
 .grow {
     display: flex;
 }
+.grow .box {
+    flex: 1;
+}.grow .big {
+    flex: 2;
+}
+/* 9 - basis */  
+.basis {
+    display: flex;
+}
+.basis .box {
+    flex-basis: 20px;
+}
+.basis .big {
+    flex-grow: 1;
+}
+/* 10 - shrink */
+.shrink {
+    display: flex;
+}
+.shrink .box {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+.shrink .small {
+    flex-shrink: 2;
+}
+.shorthand {
+    display: flex;
+}
+.shorthand .box {
+    width: auto;
+    flex: 1 1 50px;
+}
+.shorthand .diferent {
+    flex: 3 2 10px
+}
+.auto-aligment {
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+    border: 1px solid violet;
+}
+
